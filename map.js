@@ -54,4 +54,4 @@ document.addEventListener('DOMContentLoaded', function() {
       addGeoJSONLayer(geojsonData, "Layer 2");  // Add to the map
     })
     .catch(error => console.error("Error loading track.json:", error));  // Handle errors
-});
+}); // Close the DOMContentLoaded event listener
