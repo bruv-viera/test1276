@@ -40,13 +40,13 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Fetch and load GeoJSON files
-  fetch('https://github.com/bruv-viera/test1276/blob/main/polygons.json')
+  fetch('polygons.json')
     .then(response => response.json())
     .then(geojsonData => {
       addGeoJSONLayer(geojsonData, 'GeoJSON Layer 1');
     });
 
-  fetch('https://github.com/bruv-viera/test1276/blob/main/track.json')
+  fetch('track.json')
     .then(response => response.json())
     .then(geojsonData => {
       addGeoJSONLayer(geojsonData, 'GeoJSON Layer 2');
