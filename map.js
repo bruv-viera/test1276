@@ -39,18 +39,19 @@ document.addEventListener('DOMContentLoaded', function() {
     layerControl.addOverlay(geojsonLayer, layerName);
   }
 
-// Fetch the first GeoJSON file
-fetch('https://raw.githubusercontent.com/bruv-viera/test1276/main/polygons.json')
-  .then(response => response.json())  // Parse the JSON data
-  .then(geojsonData => {  // If the data is successfully fetched
-    addGeoJSONLayer(geojsonData, "Layer 1");  // Add to the map
-  })
-  .catch(error => console.error("Error loading polygons.json:", error));  // Handle errors
+  // Fetch the first GeoJSON file
+  fetch('https://raw.githubusercontent.com/bruv-viera/test1276/main/polygons.json')
+    .then(response => response.json())  // Parse the JSON data
+    .then(geojsonData => {  // If the data is successfully fetched
+      addGeoJSONLayer(geojsonData, "Layer 1");  // Add to the map
+    })
+    .catch(error => console.error("Error loading polygons.json:", error));  // Handle errors
 
-// Fetch the second GeoJSON file
-fetch('https://raw.githubusercontent.com/bruv-viera/test1276/main/track.json')
-  .then(response => response.json())  // Parse the JSON data
-  .then(geojsonData => {  // If the data is successfully fetched
-    addGeoJSONLayer(geojsonData, "Layer 2");  // Add to the map
-  })
-  .catch(error => console.error("Error loading track.json:", error));  // Handle errors
+  // Fetch the second GeoJSON file
+  fetch('https://raw.githubusercontent.com/bruv-viera/test1276/main/track.json')
+    .then(response => response.json())  // Parse the JSON data
+    .then(geojsonData => {  // If the data is successfully fetched
+      addGeoJSONLayer(geojsonData, "Layer 2");  // Add to the map
+    })
+    .catch(error => console.error("Error loading track.json:", error));  // Handle errors
+});
