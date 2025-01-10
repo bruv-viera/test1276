@@ -1,0 +1,6 @@
+{
+  "hasZ" : true,
+  "hasM" : true,
+  "type" : "FeatureCollection",
+  "features" : [{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[11.607612069476659,48.183521139071424,0]},"properties":{"OBJECTID":1,"Name":"Studentenstadt","Mode":"tram"}},{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[11.60241994816996,48.178414776618169,0]},"properties":{"OBJECTID":2,"Name":"Alte Heide","Mode":"tram"}},{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[11.597151037076141,48.173188304391907,0]},"properties":{"OBJECTID":3,"Name":"Nordfriedhof","Mode":"tram"}},{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[11.631676184223448,48.176187664171813,0]},"properties":{"OBJECTID":4,"Name":"St. Emmeram","Mode":"tram"}}]
+}
